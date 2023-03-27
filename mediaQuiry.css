@@ -44,4 +44,14 @@
   /* border: solid black 1px; */
   padding: 0px 0px 20px 0px;
 }
+.reza{
+  display: none
+}
+.ahmadi{
+  display: block;
+  font-size: 26px;
+  position: relative;
+  top: 10px;
+  color: red;
+}
 }

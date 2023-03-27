@@ -41,7 +41,10 @@ body {
 }
 /* -------------------------- section banner ------------------ */
 .banner{
-    height: 1200px;
+    height: 578px;
     background: gold;
     text-align: center;
+}
+.ahmadi{
+    display: none;
 }
