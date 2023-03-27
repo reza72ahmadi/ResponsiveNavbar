@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./mediaQuiry.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <img src="./images/logo-black.png" class="logo">
+    <button class="burgerIcon" onclick="show()"><b style="width:120px;">☰</b></button>
+    <nav class="nav" id="navBar">
+      <a href="#">HOME</a>
+      <a href="#">SERVICES</a>
+      <a href="#">ABOUT</a>
+      <a href="#">CANTACT</a>
+    </nav>
+  </header>
+  <section class="banner">
+    <h1> <pre>Reza
+           Ahmadi </pre> </h1>
+  </section>
+
+
+
+
+
+</body>
+<script>
+  function show() {
+    var x = document.getElementById("navBar");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
+</script>
+
+</html>

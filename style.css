@@ -1,0 +1,47 @@
+* {
+    /* margin: 0px 0px 0px 0px; */
+    margin: 0 auto
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    text-align: right;
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+}
+.header{
+    /* border: solid black 1px; */
+    padding: 0px 0px 3px 0px;
+    background: green;
+}
+.nav a{
+  color: #000000;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+.nav a:hover{
+    background-color:lightgreen;
+    color: black;
+}
+.logo{
+    width: 140px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.burgerIcon{
+    display: none;
+}
+/* -------------------------- section banner ------------------ */
+.banner{
+    height: 1200px;
+    background: gold;
+    text-align: center;
+}
