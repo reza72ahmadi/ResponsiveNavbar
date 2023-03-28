@@ -14,9 +14,10 @@
   }
 
   .nav.responsive {
-    position: relative;
-    top: 20px;
-
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    left: 0px;
   }
 
   .nav.responsive .burgerIcon {
@@ -30,6 +31,8 @@
     display: block;
     text-align: left;
     background: #dddd;
+    border-bottom: solid 1px #dddddd;
+    
   }
   .nav.responsive a:hover {
   background-color:lightgreen;
@@ -39,6 +42,7 @@
   position: relative;
   top: 15px;
   left: 20px;
+  padding: 0px 0px 7px 0px;
 }
 .header{
   /* border: solid black 1px; */
@@ -50,8 +54,12 @@
 .ahmadi{
   display: block;
   font-size: 26px;
-  position: relative;
   top: 10px;
   color: red;
+}
+.banner{
+  height: 578px;
+  background: gold;
+  text-align: center;
 }
 }
